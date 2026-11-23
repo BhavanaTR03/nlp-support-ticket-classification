@@ -123,6 +123,9 @@ Potential extensions include:
 - Expanding the dataset to improve coverage of underrepresented categories.
 - Developing an API for automated ticket classification.
 
+  
+A further improvement would be to integrate TF-IDF vectorisation and classification into a single Scikit-learn Pipeline, ensuring feature extraction is fitted independently within each cross-validation fold.
+
 ---
 
 **Project context:** Academic coursework – University of Bath, MSc Data Science.
